@@ -1,0 +1,24 @@
+git init  // inicia repo
+git add // prepara el archivo para el commit 
+git add. // agrega todo lo que haya cambiado al commit 
+git commit -m "mensaje" // sube todo con un mensaje 
+git rm --cached archivo.x // quita el archivo de la foto osea quita el add
+git config list //muestra todos los datos de configuracion inluyendo nombre de la persona 
+para excribir en la terminal vim // se aprieta escape shift 
+para salir de vim se presiona escape shift z z
+git log y el nombre del archivo nos arroja todos los commits hechos
+git config --global user.name "nombre"  //se configura el nombre 
+git config --global user.email "correo@gmail.com" //se configura el correo
+checkout // es un comando para traer cambios
+merge // es para traer los cambios de una rama a otra
+git reset y la version a la que queremos volver y le añadimos al final --hard 
+git checkout version de git de la que queremos sacar algo y el nombre del archivo 
+git rm --cached: Elimina los archivos de nuestro repositorio local y del área de staging, pero los mantiene en nuestro disco duro. Básicamente le dice a Git que deje de trackear el historial de cambios de estos archivos, por lo que pasaran a un estado untracked.
+git rm --force: Elimina los archivos de Git y del disco duro. Git siempre guarda todo, por lo que podemos acceder al registro de la existencia de los archivos, de modo que podremos recuperarlos si es necesario (pero debemos usar comandos más avanzados).
+git reset HEAD: Este es el comando para sacar archivos del área de staging. No para borrarlos ni nada de eso, solo para que los últimos cambios de estos archivos no se envíen al último commit, a menos que cambiemos de opinión y los incluyamos de nuevo en staging con git add, por supuesto.
+
+////////////
+si quiero traerme los cambios de alguna rama a mi repo 
+primero hago git fetch y traigo los datos al repositorio local, pero para que esten en mi proyecto o directorio de trabajo
+tengo que hacer despues del git fetch. git merge.
+y existe git pull que fuciona estos 2 conceptos.
