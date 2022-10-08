@@ -34,3 +34,8 @@ con git checkout y el nombre de la rama puedo moverme a ella.
 con git merge me traigo cambios de una rama a otra.
 
 
+//vinculando mi proyecto con github 
+git remote add origin y el codigo que nos brinda https o ssh de github en este caso https://github.com/carlosLoeraAcero/comandos-git.git
+y con eso ya esta vinculado si usamos git remote nos dira la conexion remota
+
+ahora si podemos hacer un push para mandar cambios o un fetch para traerlos 
