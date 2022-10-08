@@ -38,4 +38,4 @@ con git merge me traigo cambios de una rama a otra.
 git remote add origin y el codigo que nos brinda https o ssh de github en este caso https://github.com/carlosLoeraAcero/comandos-git.git
 y con eso ya esta vinculado si usamos git remote nos dira la conexion remota
 
-ahora si podemos hacer un push para mandar cambios o un fetch para traerlos 
+ahora si primero hacemos un git pull origin master --allow-unrelated-histories para traer los cambios y despues podemos hacer git push origin master para mandar los nuestros
