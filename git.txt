@@ -31,4 +31,6 @@ esta rama se crea apartir de la rama donde estemos.
 
 con git checkout y el nombre de la rama puedo moverme a ella.
 
+con git merge me traigo cambios de una rama a otra.
+
 
